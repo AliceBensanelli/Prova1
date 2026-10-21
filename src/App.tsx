@@ -391,7 +391,7 @@ function App() {
 
         {/* Info Panel */}
         {selectedPlanet && (
-          <div className="absolute right-0 top-0 bottom-0 w-80 bg-gradient-to-b from-slate-900/95 to-indigo-950/95 backdrop-blur-xl border-l border-white/10 p-6 overflow-y-auto animate-slide-in">
+          <div className="absolute right-0 top-0 bottom-0 w-80 bg-gradient-to-b from-slate-900/95 to-indigo-950/95 backdrop-blur-xl border-l border-white/10 p-6 overflow-y-auto animate-slide-in" style={{ color: 'white' }}>
             <button
               onClick={() => setSelectedPlanet(null)}
               className="absolute top-4 right-4 text-white/60 hover:text-white transition-colors"
